@@ -1,0 +1,41 @@
+# ---- 本仓库不要提交的东西 ----
+# 源库与工作过程目录（若在本地被复制进来，不要提交）
+提炼素材/
+_协调/
+01-协调/
+原文/
+毛选压缩-1991全5/
+
+# 毛选原文与扫描件 —— 有独立版权，绝不进仓库
+*.pdf
+*.rar
+*.zip
+毛泽东选集*
+
+# 整理过程产物
+_original-manifest.txt
+
+# ---- 通用 ----
+# 操作系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 本地临时
+*.tmp
+*.bak
+*.log

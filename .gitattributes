@@ -1,0 +1,18 @@
+# ---- 统一行为 ----
+# 让 git 自动处理文本文件的换行（仓库内统一存 LF）
+* text=auto
+
+# ---- Markdown / 中文文本 ----
+# 强制按 LF 存储，避免 Windows 上签出成 CRLF 后 diff 噪音
+*.md       text eol=lf
+*.txt      text eol=lf
+*.py       text eol=lf
+LICENSE    text eol=lf
+
+# ---- 明确二进制（防御性，目前仓库内没有）----
+*.pdf      binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.zip      binary
+*.rar      binary
